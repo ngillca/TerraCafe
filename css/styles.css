@@ -123,7 +123,7 @@ body {
 }
 #landing-sub {
   /* border: 1px solid white; */
-  color: rgb(163, 4, 184);
+  color: rgba(100, 12, 116, 0.788);
   font-size: 1.7rem;
   margin-top: 30px;
 
@@ -132,7 +132,7 @@ body {
 
 #landing-sub2 {
   /* border: 1px solid white; */
-  color: rgb(163, 4, 184);
+  color: rgba(100, 12, 116, 0.788);
   font-size: 1.7rem;
   margin-top: 20px;
   border-top: 0.4px solid white;
@@ -338,7 +338,7 @@ body {
   }
   #landing-sub {
     /* border: 1px solid white; */
-    color: rgb(163, 4, 184);
+    color: rgba(100, 12, 116, 0.788);
     font-size: 1rem;
     margin-top: 30px;
     /* border: 0.1px solid white; */
@@ -347,7 +347,7 @@ body {
 
   #landing-sub2 {
     /* border: 1px solid white; */
-    color: rgb(163, 4, 184);
+    color: rgba(100, 12, 116, 0.788);
     font-size: 1rem;
     margin-top: 20px;
     border-top: 0.1px solid white;
