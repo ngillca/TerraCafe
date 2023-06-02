@@ -1,0 +1,255 @@
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,600;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* Libre Baskerville */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Limelight&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,600;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+/* h1 {
+  font-family: Libre Baskerville;
+} */
+
+/* Start Nav Styling */
+
+.nav-container {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.24);
+  width: 100vw;
+  color: rgb(255, 255, 255);
+}
+
+.nav-items {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+
+  gap: 30px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: lime;
+}
+.logo {
+  font-size: 2rem;
+}
+
+.logo i {
+  margin-right: 10px;
+  /* border: 0.3px solid lime; */
+  padding-right: 4px;
+  font-size: 2.6rem;
+  color: lime;
+}
+
+.hamburger {
+  display: none;
+}
+.hamburger-close {
+  display: none;
+}
+/* Start LANDING Container */
+.section-container {
+  height: 100vh;
+  /* padding-top: 100px; */
+  display: flex;
+}
+/* Start LEFT Section */
+.left-section {
+  padding-top: 100px;
+  width: 30vw;
+  background-color: rgb(9, 22, 10);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/* Start RIGHT Section */
+.right-section {
+  width: 70vw;
+  padding-top: 50px;
+}
+
+/* LANDING */
+.landingxxx {
+  background-image: url("../assets/landinglarge.jpg");
+  /* background-position: bottom 50px right 100px; */
+  background-repeat: no-repeat;
+}
+.landing-left {
+  font-size: 3rem;
+  gap: 10px;
+}
+
+.landing-right {
+  margin: 150px 10px 10px 10px;
+
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  color: white;
+  z-index: 900;
+  opacity: 1;
+
+  /* background-color: rgb(225, 0, 255);*/
+}
+#landing-title {
+  color: lime;
+  font-size: 2.6rem;
+  padding-bottom: 10px;
+  text-align: left;
+}
+#landing-sub {
+  /* border: 1px solid white; */
+  color: rgb(225, 0, 255);
+  font-size: 1rem;
+  margin-top: 30px;
+  border: 0.1px solid white;
+  padding: 10px;
+}
+
+#landing-sub2 {
+  /* border: 1px solid white; */
+  color: rgb(225, 0, 255);
+  font-size: 1rem;
+  margin-top: 20px;
+  border: 0.1px solid white;
+  text-align: right;
+  padding: 7px;
+}
+/* ABOUT */
+.about-left {
+  background-color: lime;
+  color: rgb(9, 22, 10);
+  font-size: 3rem;
+}
+/* MENU */
+.menu-left {
+  font-size: 2rem;
+}
+/* DELIVERY */
+.delivery-left {
+  background-color: lime;
+  font-size: 3rem;
+
+  color: rgb(9, 22, 10);
+}
+/* Media queries */
+
+/* Mobile screens */
+
+@media (max-width: 900px) {
+  .landingxxx {
+    background-image: url("../assets/landing5.jpg");
+    /* background-position: bottom 50px right 100px; */
+    background-repeat: no-repeat;
+  }
+  .hamburger {
+    display: flex;
+    font-size: 2rem;
+  }
+
+  .hamburger.active {
+    display: none;
+  }
+  .hamburger-close.active {
+    display: inline;
+    align-self: flex-end;
+    font-size: 2rem;
+    color: lime;
+  }
+  .nav-list {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+    gap: 40px;
+    font-size: 1.3rem;
+
+    background-color: rgb(1, 1, 2);
+
+    transition: 0.3s;
+  }
+  .nav-list.active {
+    right: 0;
+  }
+
+  /* LANDING */
+  .left-section {
+    width: 40vw;
+  }
+  .landing-left {
+    font-size: 1.7rem;
+  }
+}
+
+/* Need to make tablet view*/
+@media (max-width: 700px) {
+}
+
+/* ANIMATIONS */
+.animation-container {
+  /* name of animation and time to go from -> to */
+  animation: transitionIn 1s;
+  z-index: 900;
+}
+
+.content-animation-container {
+  /* name of animation and time to go from -> to */
+  animation: transitionInContent 2s;
+  z-index: -1;
+}
+
+/* Transition effects */
+/* Need keyframes */
+@keyframes transitionIn {
+  /* on page load start */
+  from {
+    opacity: 0;
+
+    /* start at far left */
+    transform: rotateX(-10deg);
+  }
+  /* on page load end */
+  to {
+    opacity: 1;
+    /* end at far left top corner */
+    transform: rotateX(0);
+  }
+}
+
+@keyframes transitionInContent {
+  /* on page load start */
+  from {
+    opacity: 0;
+    /* start at far left */
+    transform: rotateY(-10deg);
+  }
+  /* on page load end */
+  to {
+    opacity: 1;
+    /* end at far left top corner */
+    transform: rotateY(0);
+  }
+}
