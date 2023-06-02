@@ -84,7 +84,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 100dvh;
+  height: 100vh;
 }
 /* Start RIGHT Section */
 .right-section {
@@ -220,7 +220,7 @@ body {
     flex-direction: row;
   }
   .footer-copyright {
-    color: rgb(163, 4, 184);
+    color: rgba(100, 12, 116, 0.788);
     border-top: 0.5px solid lime;
 
     padding-top: 20px;
@@ -271,7 +271,7 @@ body {
   }
 
   .about-vid video {
-    height: 100dvh;
+    height: 100vh;
     overflow-x: hidden;
   }
 
