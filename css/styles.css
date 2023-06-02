@@ -80,6 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  height: 100dvh;
 }
 /* Start RIGHT Section */
 .right-section {
@@ -96,6 +97,7 @@ body {
 .landing-left {
   font-size: 3rem;
   gap: 10px;
+  height: 100dvh;
 }
 
 .landing-right {
@@ -150,6 +152,10 @@ body {
 
   color: rgb(9, 22, 10);
 }
+
+#alt-left {
+  align-items: flex-start;
+}
 /* Media queries */
 
 /* Mobile screens */
@@ -198,6 +204,13 @@ body {
   /* LANDING */
   .left-section {
     width: 40vw;
+  }
+  .cleft {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .cleft p {
+    text-align: right;
   }
   .landing-left {
     font-size: 1.7rem;
