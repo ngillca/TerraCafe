@@ -22,3 +22,9 @@ ScrollReveal().reveal(".section-container", {
   duration: 800,
   reset: true,
 });
+
+ScrollReveal().reveal(".footer-top", {
+  easing: "ease-in",
+  duration: 800,
+  reset: true,
+});
