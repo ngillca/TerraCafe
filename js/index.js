@@ -3,14 +3,14 @@ const hamburgerClose = document.querySelector(".hamburger-close");
 const navList = document.querySelector(".nav-list");
 
 hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
+  // hamburger.classList.toggle("active");
   hamburgerClose.classList.toggle("active");
   navList.classList.toggle("active");
 });
 
 navList.childNodes.forEach((l) => {
   l.addEventListener("click", () => {
-    hamburger.classList.remove("active");
+    // hamburger.classList.remove("active");
     hamburgerClose.classList.remove("active");
     navList.classList.remove("active");
   });
