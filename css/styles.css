@@ -80,7 +80,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 100dvh;
 }
 /* Start RIGHT Section */
 .right-section {
@@ -97,7 +96,6 @@ body {
 .landing-left {
   font-size: 3rem;
   gap: 10px;
-  height: 100dvh;
 }
 
 .landing-right {
@@ -155,6 +153,12 @@ body {
 
 #alt-left {
   align-items: flex-start;
+}
+
+/* FOOTER */
+
+.footer-section {
+  height: 30vh;
 }
 /* Media queries */
 
