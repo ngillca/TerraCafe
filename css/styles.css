@@ -94,7 +94,7 @@ body {
 
 /* LANDING */
 .landingxxx {
-  background-image: url("../assets/landinglarge.jpg");
+  /* background-image: url("../assets/landinglarge.jpg"); */
   /* background-position: bottom 50px right 100px; */
   background-repeat: no-repeat;
 }
@@ -252,7 +252,7 @@ body {
   } /* end */
 
   .about-left-image {
-    background-image: url("../assets/about3.jpg");
+    /* background-image: url("../assets/about3.jpg"); */
   }
   .about-vid {
     display: none;
@@ -276,7 +276,7 @@ body {
   }
 
   .landingxxx {
-    background-image: url("../assets/landing5.jpg");
+    /* background-image: url("../assets/landing5.jpg"); */
     /* background-position: bottom 50px right 100px; */
     background-repeat: no-repeat;
   }
